@@ -9,7 +9,7 @@ hamburger.addEventListener('click', () => {
 });
 
 document.addEventListener('scroll', () => {
-    var scroll_position =window.scrollY;
+    let scroll_position =window.scrollY;
     if (scroll_position > 250) {
         header.style.backgroundColor ="#29323c";
     } else {
@@ -23,3 +23,21 @@ menu_item.forEach((item) => {
         mobile_menu.classList.toggle('active');
     });
 });
+
+
+// accordion 
+
+let acc = document.getElementsByClassName("accordion");
+let i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    let panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}

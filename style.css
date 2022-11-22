@@ -6,6 +6,7 @@
     --color3:#0000002c;
     --color4:rgba(31, 30, 30, 0.24);
     --color5:linear-gradient(60deg, #29323c 0%, #485563 100%);
+    --color6:#DC143C;
 }
 * {
     padding: 0;
@@ -45,7 +46,6 @@ a {
     align-items: center;
     justify-content: flex-start;
 }
-
 img {
     height: 100%;
     width: 100%;
@@ -698,7 +698,6 @@ h2 {
     #header .hamburger {
         display: none;
     }
-    
     #header .nav-list ul {
         position: initial;
         display: block;
@@ -743,10 +742,13 @@ h2 {
 
 .panel {
     padding: 0 18px;
-     background-color: rgb(180, 29, 29); /*celuici a changé */
+    background-color: rgb(180, 29, 29); /*celuici a changé */
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    flex-basis: 22%;
+    margin: 1.5%;
+
 }
 
 
@@ -760,16 +762,15 @@ h2 {
     height: 50px;
     width: 50px;
 }
-
 #langages {
-    padding: 80px 80px 80px 50px;
-    margin: 20px 0 0 6%;
-    height: 620px;
-    width: 47%;
-    max-width: 640px;
+    padding: 80px 80px 80px 80px;
+    margin: 20px 20px 20px 20px;
+    /* height: 650px; */
+    /* width: 47%; */
+    max-width: 660px;
     background: rgb(244,1,1);
     background: linear-gradient(140deg, rgba(244,1,1,1) 13%, rgba(252,176,69,1) 69%, rgba(251,152,60,0.12958686892725846) 97%);
-    clip-path: polygon(0 4%, 87% 0, 100% 100%, 0 93%);
+    /* clip-path: polygon(0 4%, 87% 0, 100% 100%, 0 93%); */
 }
 #langages .bar {
     padding:10px 0 4px 0;
@@ -778,4 +779,12 @@ h2 {
 #langages img {
     width: 30px;
     height: 30px;
+}
+
+button.accordion.skills-item {
+    font-size: large;
+    font-weight: bold;
+    color:#DC143C;
+    justify-content: center;
+    align-items: center;
 }

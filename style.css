@@ -69,6 +69,7 @@ p {
     text-align: center;
 }
 h1.section-title {
+    text-decoration: none;
     padding-bottom: 35px;
 }
 .section-title span {
@@ -742,7 +743,7 @@ h2 {
 
 .panel {
     padding: 0 18px;
-    background-color: rgb(180, 29, 29); /*celuici a changé */
+    background-color: #212529; /*A voir finis  */
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
@@ -750,13 +751,6 @@ h2 {
     margin: 1.5%;
 
 }
-
-
-
-
-
-
-/* a ranger  */
 
 .imgSkills {
     height: 50px;
@@ -768,7 +762,7 @@ h2 {
     /* height: 650px; */
     /* width: 47%; */
     max-width: 660px;
-    background: rgb(244,1,1);
+    background: #212529;
     background: linear-gradient(140deg, rgba(244,1,1,1) 13%, rgba(252,176,69,1) 69%, rgba(251,152,60,0.12958686892725846) 97%);
     /* clip-path: polygon(0 4%, 87% 0, 100% 100%, 0 93%); */
 }

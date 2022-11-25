@@ -774,6 +774,10 @@ h2 {
     width: 30px;
     height: 30px;
 }
+.imgBar {
+    width: 30px;
+    height: 30px;
+}
 
 button.accordion.skills-item {
     font-size: large;

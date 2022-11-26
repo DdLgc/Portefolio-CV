@@ -742,6 +742,7 @@ h2 {
 }
 
 .panel {
+    border-radius: 15px;
     padding: 0 18px;
     background-color: #212529; /*A voir finis  */
     max-height: 0;
@@ -757,6 +758,7 @@ h2 {
     width: 50px;
 }
 #langages {
+    border-radius: 15px;
     padding: 80px 80px 80px 80px;
     margin: 20px 20px 20px 20px;
     /* height: 650px; */
@@ -770,10 +772,10 @@ h2 {
     padding:10px 0 4px 0;
     letter-spacing: 0.1em;
 }
-#langages img {
+/* #langages img {
     width: 30px;
     height: 30px;
-}
+} */
 .imgBar {
     width: 30px;
     height: 30px;

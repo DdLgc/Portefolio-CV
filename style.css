@@ -718,6 +718,7 @@ h2 {
     #skills .skills-bottom .skills-item {
         flex-basis:22%;
         margin:1.5%;
+        width: 75vw;
     }
 }
 
@@ -750,7 +751,6 @@ h2 {
     transition: max-height 0.2s ease-out;
     flex-basis: 22%;
     margin: 1.5%;
-
 }
 
 .imgSkills {
@@ -762,8 +762,8 @@ h2 {
     padding: 80px 80px 80px 80px;
     margin: 20px 20px 20px 20px;
     /* height: 650px; */
-    /* width: 47%; */
-    max-width: 660px;
+    /* width: 100%; */
+    /* max-width: 660px; */
     background: #212529;
     background: linear-gradient(140deg, rgba(244,1,1,1) 13%, rgba(252,176,69,1) 69%, rgba(251,152,60,0.12958686892725846) 97%);
     /* clip-path: polygon(0 4%, 87% 0, 100% 100%, 0 93%); */
